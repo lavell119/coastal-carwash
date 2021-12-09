@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
+
 }
+
+
 
 :root {
     --color1:#38ace4;
@@ -89,6 +92,11 @@ body {
     
 }
 
+#logo {
+    width: 250px;
+    height: auto;
+}
+
 .header-middle {
     height: 144px;
     display: flex;
@@ -133,6 +141,12 @@ body {
     align-items: center;
     padding-left: 40px;
 
+}
+
+#watersavers {
+    height: 130px;
+    width: auto;
+    
 }
 
 .award img {
@@ -227,11 +241,11 @@ body {
     align-items: center;
 }
 
-
 #sec1img {
     height: auto;
-    width: 550px;   
+    width: 450px;   
 }
+
 
 
 .section-1-left {
@@ -315,7 +329,7 @@ body {
 
 .section-3 {
     padding: 0px 60px 0px 60px;
-    background-image: url("images/sec3background.jpg");
+    background-image: url("images/sec3image.jpg");
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -518,13 +532,17 @@ body {
 .section-5 {
     height: 77vh;
     width: 100%;
-    background-image: url("images/sec5background.png");
+    background-image: url("images/sec5image.png");
     background-size: cover;
     margin-bottom: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.section-5 img {
+    max-width: 100%;
 }
 
 .testimonial-name-job {
@@ -769,7 +787,7 @@ legend {
 
 
 .social-circle:hover {
-    background: #21a04c;
+    background: #0d4e80;
 }
 
 
@@ -777,3 +795,7 @@ legend {
     color: var(--color1);
 }
 
+.logowhite {
+    width: 155px;
+    height: auto;
+}
